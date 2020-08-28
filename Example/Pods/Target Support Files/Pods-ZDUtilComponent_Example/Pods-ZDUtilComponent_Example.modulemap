@@ -1,0 +1,6 @@
+framework module Pods_ZDUtilComponent_Example {
+  umbrella header "Pods-ZDUtilComponent_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

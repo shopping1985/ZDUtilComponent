@@ -1,0 +1,16 @@
+PODS:
+  - ZDUtilComponent (0.1.0)
+
+DEPENDENCIES:
+  - ZDUtilComponent (from `../`)
+
+EXTERNAL SOURCES:
+  ZDUtilComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZDUtilComponent: c85d94f1092b0d40f790137c1eb841f773f4dc9d
+
+PODFILE CHECKSUM: 733b120c61196ba6678201f19267083dda8dc239
+
+COCOAPODS: 1.9.1

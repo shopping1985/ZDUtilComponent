@@ -1,0 +1,22 @@
+{
+  "name": "ZDUtilComponent",
+  "version": "0.1.0",
+  "summary": "A short description of ZDUtilComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shopping1985/ZDUtilComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shopping1985": "285624489@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/shopping1985/ZDUtilComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZDUtilComponent/Classes/**/*"
+}

@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DCCD2F13BBCEF1DF4FD23B4 /* Pods-ZDUtilComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDUtilComponent_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZDUtilComponent_Tests/Pods-ZDUtilComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		91FD26E8F586FA14CEDC6A0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		91FD26E8F586FA14CEDC6A0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E16ED6E26EFB5799777ED853 /* Pods-ZDUtilComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDUtilComponent_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZDUtilComponent_Example/Pods-ZDUtilComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E636020FCEFD7C333D234EEE /* ZDUtilComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZDUtilComponent.podspec; path = ../ZDUtilComponent.podspec; sourceTree = "<group>"; };
-		E91F5892EF2B6EE47B52BFC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E636020FCEFD7C333D234EEE /* ZDUtilComponent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZDUtilComponent.podspec; path = ../ZDUtilComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E91F5892EF2B6EE47B52BFC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				60010AFAAD25B42A721BFC6C /* Pods-ZDUtilComponent_Tests.debug.xcconfig */,
 				8DCCD2F13BBCEF1DF4FD23B4 /* Pods-ZDUtilComponent_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
