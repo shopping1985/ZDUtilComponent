@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZDUtilComponent_Example' do
+  pod 'ZDUtilComponent', :path => '../'
+
+  target 'ZDUtilComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
