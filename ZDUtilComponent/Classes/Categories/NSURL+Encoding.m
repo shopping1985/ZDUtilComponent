@@ -7,6 +7,7 @@
 //
 
 #import "NSURL+Encoding.h"
+#import <objc/message.h>
 
 @implementation NSURL (Encoding)
 

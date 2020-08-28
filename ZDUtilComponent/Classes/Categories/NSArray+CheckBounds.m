@@ -7,6 +7,7 @@
 //
 
 #import "NSArray+CheckBounds.h"
+#import <objc/message.h>
 
 @implementation NSArray (CheckBounds)
 
