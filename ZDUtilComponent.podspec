@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDUtilComponent'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of ZDUtilComponent.'
 
 # This description is used to generate tags and improve search results.
@@ -31,12 +31,18 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ZDUtilComponent/Classes/**/*'
-  
+  s.public_header_files = 'ZDUtilComponent/Classes/ZDUtilComponent.h'
+  #---文件分级---#
+  s.subspec 'Categories' do |ss|
+      ss.source_files = 'ZDUtilComponent/Classes/Categories/*'
+  end
+  s.subspec 'Helpers' do |ss|
+      ss.source_files = 'ZDUtilComponent/Classes/Helpers/*'
+  end
   # s.resource_bundles = {
   #   'ZDUtilComponent' => ['ZDUtilComponent/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.prefix_header_contents = '#import <objc/message.h>'
