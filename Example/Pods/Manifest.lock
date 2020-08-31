@@ -1,5 +1,5 @@
 PODS:
-  - ZDUtilComponent (0.1.0)
+  - ZDUtilComponent (1.0.1)
 
 DEPENDENCIES:
   - ZDUtilComponent (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDUtilComponent: c85d94f1092b0d40f790137c1eb841f773f4dc9d
+  ZDUtilComponent: ad611cc4e9d763c4d76876b222f8873db6dd2bae
 
 PODFILE CHECKSUM: 733b120c61196ba6678201f19267083dda8dc239
 

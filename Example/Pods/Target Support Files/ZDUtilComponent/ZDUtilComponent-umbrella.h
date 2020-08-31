@@ -11,6 +11,7 @@
 #endif
 
 #import "NSArray+CheckBounds.h"
+#import "NSBundle+wgSubBundle.h"
 #import "NSDictionary+TypeCheck.h"
 #import "NSString+Encoding.h"
 #import "NSURL+Encoding.h"
