@@ -9,9 +9,9 @@
 #define ZDUtilsComponent_h
 
 //category
-#import "Categories/NSBundle+wgSubBundle.h"
-#import "Categories/UIImage+wgBundle.h"
-#import "Categories/NSArray+CheckBounds.h"
+#import "NSBundle+wgSubBundle.h"
+#import "UIImage+wgBundle.h"
+#import "./Categories/NSArray+CheckBounds.h"
 #import "Categories/NSDictionary+TypeCheck.h"
 #import "Categories/NSString+Encoding.h"
 #import "Categories/NSURL+Encoding.h"
