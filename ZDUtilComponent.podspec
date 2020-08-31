@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDUtilComponent'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of ZDUtilComponent.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'ZDUtilComponent/Classes/**/*'
+  s.source_files = 'ZDUtilComponent/Classes/*'
   s.public_header_files = 'ZDUtilComponent/Classes/ZDUtilComponent.h'
   #---文件分级---#
   s.subspec 'Categories' do |ss|
