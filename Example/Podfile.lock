@@ -1,5 +1,9 @@
 PODS:
-  - ZDUtilComponent (1.0.2)
+  - ZDUtilComponent (1.0.6):
+    - ZDUtilComponent/Categories (= 1.0.6)
+    - ZDUtilComponent/Helpers (= 1.0.6)
+  - ZDUtilComponent/Categories (1.0.6)
+  - ZDUtilComponent/Helpers (1.0.6)
 
 DEPENDENCIES:
   - ZDUtilComponent (from `../`)
@@ -9,8 +13,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZDUtilComponent: 4f41468016d07b4dc2a5608af8fcfa19800e5242
+  ZDUtilComponent: ed0fc3df2ea8f33436426d0e16974bcf6adb6976
 
-PODFILE CHECKSUM: 733b120c61196ba6678201f19267083dda8dc239
+PODFILE CHECKSUM: e110247640cff0278f00db4b75f6c4648ed4549b
 
 COCOAPODS: 1.9.1

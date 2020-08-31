@@ -1,6 +1,6 @@
 {
   "name": "ZDUtilComponent",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "summary": "A short description of ZDUtilComponent.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shopping1985/ZDUtilComponent",
@@ -13,11 +13,21 @@
   },
   "source": {
     "git": "https://github.com/shopping1985/ZDUtilComponent.git",
-    "tag": "1.0.2"
+    "tag": "1.0.6"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ZDUtilComponent/Classes/**/*",
-  "prefix_header_contents": "#import <objc/message.h>"
+  "source_files": "ZDUtilComponent/Classes/*",
+  "public_header_files": "ZDUtilComponent/Classes/ZDUtilComponent.h",
+  "subspecs": [
+    {
+      "name": "Categories",
+      "source_files": "ZDUtilComponent/Classes/Categories/*"
+    },
+    {
+      "name": "Helpers",
+      "source_files": "ZDUtilComponent/Classes/Helpers/*"
+    }
+  ]
 }
